@@ -1,0 +1,48 @@
+body{
+    background-color: #3a424f;
+    color: #fff;
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+}
+
+p{
+    font-size: 30px;
+}
+
+.elementMenu { 
+    font-size: 30px;
+    float: left;
+}
+
+.elementMenu a{
+    padding:7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
+.elementMenu a:hover {
+    background-color: #87591c;
+    cursor: pointer;
+}
+
+.nagłówek{
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d48c2f;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: 'Koulen', cursive;
+    top:0;
+    position: sticky;
+}
+
+#kontakt{
+    background-color: #67768f;
+}
