@@ -3,11 +3,11 @@ body{
     color: #fff;
     margin: 0px;
     font-family: 'Barlow', sans-serif;
+	text-align: center;
 }
 
 h3{
 	font-size:30px;
-	margin-left:20%;
 	color: #b8731a;
 }
 
@@ -22,6 +22,11 @@ a{
 
 a:hover{
 	color: #d48c2f;
+}
+
+filedset{
+	width:200px;
+	margin:auto;
 }
 
 .elementMenu > a{
@@ -56,12 +61,37 @@ a:hover{
     position: sticky;
 }
 
+.O{
+	background-color: #909bad;
+	width:50%;
+	text-align: center;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-top: 10px;
+}
+
+#oStronie{
+	background-color: #1a1d24;
+}
+
+#oMnie{
+	background-color: #2a2e36;
+}
+
 #szare{
     background-color: #67768f;
 }
 
-#oStronie{
-	background-color: #909bad;
-	margin:20%;
-	text-align: center;
+#stich{
+	width:200px;
 }
+
+.stich::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
