@@ -16,7 +16,7 @@ p{
 }
 
 a{
-	text-decoration: none;
+	text-decoration-style: wavy;
 	color: #fff;
 }
 
@@ -24,12 +24,13 @@ a:hover{
 	color: #d48c2f;
 }
 
-filedset{
+fieldset{
 	width:200px;
 	margin:auto;
 }
 
 .elementMenu > a{
+	text-decoration: none;
     float: left;
     padding:7px;
     padding-left: 15px;
@@ -61,7 +62,7 @@ filedset{
     position: sticky;
 }
 
-.O{
+.infoDiv{
 	background-color: #909bad;
 	width:50%;
 	text-align: center;
@@ -72,12 +73,30 @@ filedset{
 	padding-top: 10px;
 }
 
-#oStronie{
+.ciemnyDiv{
 	background-color: #1a1d24;
+	width:50%;
+	text-align: center;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-top: 10px;
 }
 
-#oMnie{
+.jasnyDiv{
 	background-color: #2a2e36;
+	width:50%;
+	text-align: center;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-top: 10px;
+}
+
+.kod{
+	font-size: 17px;
 }
 
 #szare{
