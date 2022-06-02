@@ -29,6 +29,13 @@ fieldset{
 	margin:auto;
 }
 
+button{
+	height:100%;
+	width:100%;
+	font-size: 22px;
+	font-family: 'Koulen', cursive;
+}
+
 .elementMenu > a{
 	text-decoration: none;
     float: left;
@@ -105,6 +112,17 @@ fieldset{
 
 #stich{
 	width:200px;
+}
+
+#kalkulator{
+	width:50%;
+	height:400px;
+	margin-left:25%;
+}
+
+#pKalk{
+	height:30px;
+	font-size: 18px;
 }
 
 .stich::after {
