@@ -121,6 +121,11 @@ button{
 }
 
 #pKalk{
+	border-style: groove;
+	border-color: #1a1d24;
+	border-width: medium;
+	width:50%;
+	margin-left: 25%;
 	height:30px;
 	font-size: 18px;
 }
